@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC News</title>
+    <style type="text/css">
+    #topbar{
+        width:1000px;
+        margin:0 auto;
+        height:40px;
+        
+    }
+    body{
+        margin: 0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #logo{
+        margin-top:8 px;
+        width:100 px;
+        float:left;
+        margin-right:8px;
+    }
+    .topbar-section{
+        float:left;
+        border-left:1px #cccccc solid;
+        height:100%;
+    }
+    #signin-image{
+        width:300 px;
+        margin:6px 12px;
+        float:left;
+
+    }
+    #signin-text{
+        font-weight: bold;
+        font-size:90%;
+        position: relative;
+        top: 7px;
+        padding-right: 50px;
+    }
+    .topbar-menu{
+        font-weight: bold;
+        font-size: 90%;
+        padding:8px 15px 0px 15px;
+        height:27px;
+} 
+#searchbox{
+    background-color: #E4E4E4;
+    border:none;
+    font-weight:bold;
+    font-size:14px;
+    padding:9px;
+    float:left;
+
+}
+#magnifying-glass{
+    
+    margin-top:4px;
+    height: 25px;
+    position: relative;
+    left:10px;
+}
+.clear{
+    clear:both;
+}
+#menu-bar-container{
+    border-top: 1px solid #cccccc;
+    background-color: #BB1919;
+    width:100%;
+    height:70px;
+}
+#menu-bar{
+    width:1000px;
+    margin:auto;
+
+}
+h1{
+    margin:0px;
+    padding:0px;
+    color: white;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    padding-top:10px;
+    float:left;
+}
+#local-news{
+    border:1px #BB4545 solid;
+    width:180px;
+    float:right;
+    padding:10px 5px 0 8px;
+    margin:10px 10px 0 10px;
+    font-size:20px;
+
+
+}
+#local-news a{
+    color:white;
+    text-decoration: none;
+    font-size:20 px;
+    
+}
+#local-news a:hover{
+    text-decoration: underline;
+}
+#news-image{
+    position: relative;
+    top:7px;
+    color:white;
+}
+#menu-bar-2-container{
+    background-color: #A91717;
+    width:100%;
+}
+#menu-bar-2{
+    width:1000px;
+    margin:0 auto;
+    height:30px;
+}
+#menu-bar-2 a{
+    color:white;
+    text-decoration: none;
+    font-size:14px;
+    padding:0 8px;
+    border-right:1px solid #BB4545;
+    position: relative;
+    top:11 px;
+}
+#menu-bar-2 a:hover{
+    text-decoration: underline;
+}
+.no-border{
+    border:none !important;
+}
+#down-arrow{
+    height:10px;
+    position:relative;
+    top:2px;
+    background-color: #BB4545;
+
+}
+
+#watch-listen{
+    margin:20px;
+}
+.main-content{
+        width:1000px;
+        margin:0 auto;
+        height:40px;
+        
+    }
+    #text-content{
+        font-size: 25px;
+        font: weight 400px;;
+    }
+    
+.tennis{
+    width: 100%
+}
+
+    </style>
+</head>
+<body>
+    <div id="topbar">
+     <img id="logo" src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/bbc-blocks-dark.png">
+     <div id="signin-div" class="topbar-section">
+     <img id="signin-image" src="https://static.bbci.co.uk/id/0.27.15/img/bbcid_orb_signin_dark.png">
+     <span id="signin-text">Sign In</span>
+     </div>
+     <div class="topbar-section topbar-menu">
+         News
+     </div>
+     <div class="topbar-section topbar-menu">
+        News
+    </div>
+    <div class="topbar-section topbar-menu">
+        Sport
+    </div>
+    <div class="topbar-section topbar-menu">
+        Reel
+    </div>
+    <div class="topbar-section topbar-menu">
+        Worklife
+    </div>
+    <div class="topbar-section topbar-menu">
+        Travel
+    </div>
+  
+
+    <div class="topbar-section">
+        <input id="searchbox" type="text" value="search">
+        <input type="image" id="magnifying-glass" src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/orb-search-dark.png">
+    </div>
+    </div>
+    <div class="clear">
+        <div id="menu-bar-container">
+         <div id="menu-bar">
+             <h1>NEWS</h1>
+         </div>
+         <div id="local-news">
+            <a href="">Find local news </a>
+             <img id="news-image"src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/orb-search-dark.png">
+         </div>
+        </div>
+       <div id="menu-bar-2-container">
+        <div id="menu-bar-2">
+            <a href="">Home</a>
+            <a href="">UK</a>
+            <a href=""> World</a>
+            <a href="">Business</a>
+            <a href="">Politics</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Health</a>
+            <a href="">Education</a>
+            <a href="">Entertainment & Arts</a>
+            <a href="">Video & Audio</a>
+            <a href="" class="no-border">More</a>
+          
+            
+            </div>
+         </div>
+    </div>
+    <div class="main-content">
+        <h3>Sports Headlines</h3>
+        
+           
+            <h4 id="text-content">The Women's Tennis Association (WTA) says Peng Shuai's latest interview about her sexual assault allegations "does not alleviate" its concerns</h4>
+            <img class="tennis" src="https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/9E6D/production/_123175504_gettyimages-1194977504.jpg">
+        
+            <ul id = "original-text">
+			
+ <li>Peng accused a Chinese government leader in November in a social media post but it was swiftly deleted and the player then disappeared for weeks.</li> <br>
+<li>But the 36-year-old said on Monday she never alleged sexual assault.</li> <br>
+<li>"Her recent in-person interview does not alleviate any of our concerns about her initial post," the WTA said.</li> <br>
+<li>The organisation's chief executive and chairman Steve Simon added: "To reiterate our view, Peng took a bold step in publicly coming forth with the accusation that she was sexually assaulted by a senior Chinese government leader.</li>
+<li>"As we would do with any of our players globally, we have called for a formal investigation into the allegations by the appropriate authorities and an opportunity for the WTA to meet with Peng, privately, to discuss her situation.</li> <br>
+<li>"We continue to hold firm on our position and our thoughts remain with Peng Shuai."</li> <br>
+
+</ul>
+
+    </div> 
+</body>
+</html>
